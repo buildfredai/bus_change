@@ -1,3 +1,11 @@
+'''
+Create a python script to simulate a bus conductor collecting fare. The fare for each passenger
+is fixed at 5 rupees. There are 5 passengers, and each passenger can pay an amount that is a
+multiple of 5(up to 100). The conductor must provide change if required. The program should
+output "True" if the conductor is able to give correct change to all passengers, and "False"
+otherwise.
+'''
+
 passenger = []
 passenger.append(int(input("Passenger 1: ")))
 passenger.append(int(input("Passenger 2: ")))
